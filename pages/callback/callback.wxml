@@ -1,0 +1,7 @@
+<movable-area style="height: 100%; width: 750rpx;" bindtap="box">
+
+  <movable-view catchtap="moveFish" class='fishBox' x="{{x}}rpx" y="{{y}}rpx" damping="5" direction="all" inertia disabled>
+    <image class='defFish {{isRotate?"rotateFish":""}}' src='./fish.gif' mode='widthFix' style="width: 100%;"></image>
+  </movable-view>
+
+</movable-area>
